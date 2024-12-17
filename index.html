@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="images/logo.jpeg" alt="Logo" class="logo">
+        </a>
+        <div class="search" onclick="togglesearch();">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="bar">
+            <ul class="nav">
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="#">Dairy Product</a>
+                        <a href="#">Fresh Atta</a>
+                        <a href="#">Vegetables</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">My Location</a>
+                    <div class="dropdown-content">
+                        <a href="#">Bhilwara</a>
+                        <a href="#">Jaipur</a>
+                        <a href="#">Udaipur</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="mycart">
+                <ion-icon name="cart-outline"></ion-icon>
+            </div>
+            <div class="menu">
+                <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+        </div>
+        <ul class="nav-mobile">
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">My Location</a></li>
+        </ul>
+    </header>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
